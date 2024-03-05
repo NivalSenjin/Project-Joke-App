@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+ background-color: white ;
+  background-size:cover;
+  
+}
+
+.container{
+  display: grid;
+  place-items: center;
+  padding-top:80px;
+  
+}
+
+#heading{
+font-size: 40px;
+color: #3d3846;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+text-shadow:5px 5px 5px #000000;
+}
+
+
+#joke-container {
+  margin: 20px;
+  box-shadow: -2px 0px 5px 2px #899599;
+  background-color:#ededed;
+  border-radius:15px;
+  border:2px solid #5e5c64;
+  display:inline-block;
+  color:#000000;
+  font-family:Verdana;
+  font-size:23px;
+  font-weight:bold;
+  padding:32px;
+  text-decoration:none;
+  text-shadow:0px 0px 19px #e1e2ed;
+}
+
+
+.myButton{
+  box-shadow: 0px 0px 5px 2px #9fb4f2;
+  background-color:#c0bfbc;
+  border-radius:10px;
+  border:3px solid #77767b;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Verdana;
+  font-size:23px;
+  font-weight:bold;
+  padding:10px 25px;
+  text-decoration:none;
+  text-shadow:0px 0px 19px #241f31;
+}
+
+.myButton:hover {
+  background-color:#476e9e;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
